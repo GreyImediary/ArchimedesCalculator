@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="calcButtonStyle" format="reference" />
+    <attr name="calcSpecialButtonStyle" format="reference" />
+    <attr name="themeIcon" format="reference" />
+    <attr name="menuIcon" format="reference" />
+    <attr name="settingsIcon" format="reference" />
+    <attr name="historyIcon" format="reference" />
+    <attr name="expressionTextColor" format="reference" />
+</resources>

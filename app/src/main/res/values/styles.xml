@@ -1,0 +1,98 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:fontFamily">@font/chela</item>
+        <item name="android:screenOrientation">locked</item>
+    </style>
+
+    <style name="AppThemeDay" parent="AppTheme">
+        <item name="colorPrimary">@color/colorPrimaryDay</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkDay</item>
+        <item name="colorAccent">@color/colorAccentDay</item>
+        <item name="calcButtonStyle">@style/CalcButtonDay</item>
+        <item name="calcSpecialButtonStyle">@style/CalcSpecialButtonDay</item>
+        <item name="android:popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="toolbarStyle">@style/ToolbarDay</item>
+        <item name="expressionTextColor">@android:color/black</item>
+        <item name="themeIcon">@drawable/ic_change_theme_day</item>
+        <item name="menuIcon">@drawable/menu_icon_day</item>
+        <item name="historyIcon">@drawable/ic_history_day</item>
+        <item name="settingsIcon">@drawable/ic_settings_day_24dp</item>
+    </style>
+
+    <style name="AppThemeNight" parent="AppTheme">
+        <item name="colorPrimary">@color/colorPrimaryNight</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkNight</item>
+        <item name="colorAccent">@color/colorAccentNight</item>
+        <item name="calcButtonStyle">@style/CalcButtonNight</item>
+        <item name="calcSpecialButtonStyle">@style/CalcSpecialButtonNight</item>
+        <item name="android:popupTheme">@style/ThemeOverlay.AppCompat.Dark</item>
+        <item name="toolbarStyle">@style/ToolbarNight</item>
+        <item name="expressionTextColor">@android:color/white</item>
+        <item name="themeIcon">@drawable/ic_change_theme_night</item>
+        <item name="menuIcon">@drawable/menu_icon_night</item>
+        <item name="historyIcon">@drawable/ic_history_night</item>
+        <item name="settingsIcon">@drawable/ic_settings_night_24dp</item>
+    </style>
+
+    <style name="CalcButtonDay" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="backgroundTint">@color/buttonColorDay</item>
+        <item name="cornerRadius">5dp</item>
+        <item name="android:textColor">@color/buttonFontColorDay</item>
+        <item name="rippleColor">@color/buttonRippleDay</item>
+        <item name="android:insetBottom">1dp</item>
+        <item name="android:insetTop">1dp</item>
+        <item name="android:insetRight">1dp</item>
+        <item name="android:insetLeft">1dp</item>
+    </style>
+
+    <style name="CalcButtonNight" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="backgroundTint">@color/buttonColorNight</item>
+        <item name="cornerRadius">5dp</item>
+        <item name="android:textColor">@color/buttonFontColorNight</item>
+        <item name="rippleColor">@color/buttonRippleNight</item>
+        <item name="android:insetBottom">1dp</item>
+        <item name="android:insetTop">1dp</item>
+        <item name="android:insetRight">1dp</item>
+        <item name="android:insetLeft">1dp</item>
+    </style>
+
+    <style name="CalcSpecialButtonDay" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="backgroundTint">@color/buttonColorSecondaryDay</item>
+        <item name="cornerRadius">5dp</item>
+        <item name="android:textColor">@color/buttonFontColorSecondaryDay</item>
+        <item name="rippleColor">@color/buttonRippleSecondaryDay</item>
+        <item name="android:insetBottom">1dp</item>
+        <item name="android:insetTop">1dp</item>
+        <item name="android:insetRight">1dp</item>
+        <item name="android:insetLeft">1dp</item>
+    </style>
+
+    <style name="CalcSpecialButtonNight" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="backgroundTint">@color/buttonColorSecondaryNight</item>
+        <item name="cornerRadius">5dp</item>
+        <item name="android:textColor">@color/buttonFontColorSecondaryNight</item>
+        <item name="rippleColor">@color/buttonRippleSecondaryNight</item>
+        <item name="android:insetBottom">1dp</item>
+        <item name="android:insetTop">1dp</item>
+        <item name="android:insetRight">1dp</item>
+        <item name="android:insetLeft">1dp</item>
+    </style>
+
+    <style name="ExpressionEditText">
+        <item name="android:layout_marginEnd">@dimen/expression_text_margin</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textAlignment">textEnd</item>
+        <item name="android:inputType">textNoSuggestions</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    
+    <style name="ToolbarNight" parent="@style/Widget.MaterialComponents.Toolbar">
+        <item name="android:colorControlHighlight">#f5f5f5</item>
+    </style>
+
+    <style name="ToolbarDay" parent="@style/Widget.MaterialComponents.Toolbar">
+        <item name="android:colorControlHighlight">@color/toolbarHighlightDay</item>
+    </style>
+</resources>
